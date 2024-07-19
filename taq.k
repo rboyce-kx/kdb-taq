@@ -23,7 +23,7 @@
 o:.Q.opt .z.x;if[2>#.Q.x;-1">q ",($.z.f)," SRC DST [-corr] [-join] [-host [host]:port..] [-par]";exit 1]
 F:F@&(_F:!src:`$":",*.Q.x)like;S:0N!`/:src,;dst:`$":",.Q.x[1],"/taq"
 host:(`$":",)'o`host;corr:$[`corr in!o;::;{(x_`corr)[;&3>x`corr]}];e:("e"$%;%)`float in!o;s:~`join in!o;par:`par in!o
-
+// intro to git CMTP change
 mf:`cusip`wi`date`name`sym`ex`uot;m:$[@!d:`/:dst,`mas;mf#0!. d;()];ma:{m@:&~~':`date`name_m@:<m,:mf#x@&~x[`cusip]in``0`000000000}
 V:{$["2"=*x:1_$x;1+"4"<x 3;0]}   /`out`issue N denom(AB3-8)/out (ind is missing from ftp)  issue?[dvd012345  ftp12347890]
 / MAS/DIV 1993-1999 bad(~5/1) rowsMAS0002/03 have bad dates(ccccyymm) DIV9912 has two bad splits MAB PRK
