@@ -1,5 +1,8 @@
 # kdb+taq
 
+## 2024.07.19
+This is a change for into to bash scripting cmtp
+
 ## Changes to kdb+taq
 
 ### 2022.01.06 (`Bid_Price` type fix in tq.q)
